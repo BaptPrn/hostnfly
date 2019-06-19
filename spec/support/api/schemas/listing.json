@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "id" : { "type" : "integer" },
+    "num_rooms" : { "type" : "integer" },
+    "reservations" : {
+      "type" : "array",
+      "items" : { "$ref" : "reservations.json" }
+    },
+    "bookings" : {
+      "type" : "array",
+      "items" : { "$ref" : "bookings.json" }
+    },
+    "missions" : {
+      "type" : "array",
+      "items" : { "$ref" : "missions.json" }
+    }
+  }
+}

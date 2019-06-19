@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+    "listing_id": { "type": "integer" },
+    "mission_type": { "type": "string" },
+    "date": { "type": "date" },
+    "price": { "type": "integer" }
+  }
+}

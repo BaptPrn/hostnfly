@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+    "id" : { "type" : "integer" },
+    "start_date" : { "type" : "date" },
+    "end_date" : { "type" : "date" },
+    "listing": { "$ref" : "listing.json" }
+  }
+}
